@@ -1,1 +1,1 @@
-https://VovikOk.github.io/rsschool-cv/cv
+https://VovikOk.github.io/rsschool-cv/ 
