@@ -14,6 +14,7 @@ I have great interest and desire to become a Front-End Developer.  Therefore, I 
 ## **Education**
 **Zhytomyr State Technological University
 2010 year**
+
 master "Automated management of technological processes"
 ## **Work Experience**
 ### **State employee**
@@ -32,7 +33,7 @@ starting from September 2020, I work in the analytical group.
 + Adobe Photoshop CS5
 + Visual Studio Code
 + MS Office
-## **Language:** English 
+## **Language:**  English
 
 
 
