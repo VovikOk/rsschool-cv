@@ -1,0 +1,450 @@
+
+
+body{
+    width: 1600px;    
+    margin: 0 auto;    
+}
+
+.top_section{  
+    width: 1600px;             
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;  
+    top: 0px;   
+    font-family: 'Roboto';
+    font-style: normal;    
+}
+
+.header {    
+    width: 100%;
+    height: 80px;   
+}
+
+.top_section_header {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 0px;    
+    background: #000000;
+    backdrop-filter: blur(2px);
+}
+
+.top_section_header_logotype {
+    position: absolute;
+    width: 82px;
+    height: 52px;
+    left: 220px;
+    top: 14px;
+}
+
+.bamboo{
+    position: absolute;   
+    left: 7px;
+    top: 25px;
+}
+
+.logotype_home {
+    box-sizing: border-box;    
+    position: absolute;
+    width: 82px;
+    height: 52px;
+    left: 0px;
+    top: 0px;    
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+}
+
+.petStory_online{
+    box-sizing: border-box;    
+    margin: 0px;       
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;       
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;    
+}
+
+.top_section_header_novigator{
+    position: absolute;    
+    height: 22px;
+    padding: 0;    
+    left: 365px;
+    top: 29px;
+}
+
+.novigator_list{
+    margin: 0;
+    padding: 0;
+}
+
+.novigator_list li{
+    display: inline;
+    margin: 0 58px 0 0;
+}
+
+.top_section a {    
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;    
+    color: #FFFFFF;           
+}
+
+.top_section a:hover{
+    color: orange; 
+}
+
+.top_section_header_designed {
+    position: absolute;
+    width: 105px;
+    height: 22px;
+    right: 220px;
+    top: 29px;   
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;    
+    color: #FFFFFF;
+}  
+
+
+.center_section{
+    width: 100%;    
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+
+h3{    
+    margin: 40px 180px 10px 180px;    
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;    
+    color: #FFFFFF;
+}
+
+.even_text {
+    margin: 0 180px 0 180px; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.donat{
+    max-width: 40px 0 0 0;
+    color: #FE9013;
+}
+
+.main_pick{
+    margin: 60px 220px 180px 220px;
+    height: 964px;
+    background: rgba(255, 255, 255, 0.52);
+    backdrop-filter: blur(2px);    
+    border-radius: 20px;
+}
+
+.pick{
+    position: relative;
+    margin: 40px 92px 62px 92px;
+    height: 862px;
+}
+
+h2{
+    padding-top: 40px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;    
+    text-align: center;
+    color: #FE9013;
+}
+
+.animal_text{
+    margin: 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333B41;
+}
+
+.icon_panda{
+    margin: 60px 229px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.number {
+    margin: 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 80%;    
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.number_text{
+    margin: 10px 0 0 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%; 
+    text-align: center;    
+    color: #333B41;
+}
+
+.xicon{
+    margin: 0 64px 0 11px;
+}
+
+.amount{
+    margin: 48px 0 0 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;   
+    color: #000000;
+}
+
+
+.pick_progress{   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   /* justify-content:space-around;*/
+    margin: 10px 0 0 0;    
+    height: 40px;
+    background-color: #72828E;
+}
+
+.pick_progress img {
+    padding: 0 58px 0 58px;
+}
+
+.pick_progress img:hover{
+    transform: scale(1.8); 
+}
+
+.pick_price{
+    margin: 6px 10px 0 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #333B41;
+}
+
+.another_amont{
+    box-sizing: border-box;
+    width: 268px;
+    height: 54px;
+    margin: 50px 354px 0 354px;    
+    border: 1px solid #929699;
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #929699;
+}
+.another_amont::-webkit-outer-spin-button,
+.another_amont::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.another_amont [type=number] {
+  -moz-appearance: textfield;
+}
+
+.another_amont{   
+    padding-left: 10px;
+}
+
+.pick_icon {
+    position: absolute;
+    top: 17px;
+    right: 17px;
+    width: 10px;
+    height: 20px;
+}
+
+.radio_input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Monthly{
+    margin-right: 50px;
+}
+
+.pick_button{
+    margin: 31px 336px 0 342px;    
+    width: 298px;
+    height: 54px;
+    left: calc(50% - 298px/2 + 332px);    
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;     
+    color: #FFFFFF;
+    border: none;
+}
+
+.pick_button:active{
+    background: linear-gradient(113.96deg, #352d2a 1.49%, #57432b 101.44%); 
+}
+
+.share_text{
+    margin: 30px 335px 0 340px; 
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;   
+    color: #333B41;
+    
+}
+
+.footer {
+    margin: 0 0 0 0;
+    width: 1600px;
+    height: 443px;
+    background: #000000;
+    position: relative;
+
+}
+
+.footer_logotype {
+    position: absolute;
+    left: 220px;
+    top: 41px;
+    width: 82px;
+    height: 52px;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+
+}
+
+.footer_logotype_button {
+    margin: 161px 0 0 220px;
+    width: 298px;
+    height: 54px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    color: #FFFFFF;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 5px;
+}
+
+.footer_logotype_button:active {
+    background: linear-gradient(113.96deg, #352d2a 1.49%, #57432b 101.44%);
+}
+
+.footer_message {
+    margin: 44px 0 0 220px;
+    padding: 0;
+}
+
+.footer_message li {
+    margin-bottom: 10px;
+}
+
+.footer_message a {
+    position: relative;
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+
+}
+
+
+.footer_message img {
+    padding: 0 10px 0 0;
+}
+
+
+.footer_novigator {
+    position: absolute;
+    height: 22px;
+    padding: 0;
+    left: 619px;
+    top: 371px;
+}
+
+.footer_input_box {
+    position: absolute;
+    margin: 0;
+    right: 220px;
+    top: 40px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.footer_input_box p {
+    margin: 0 0 14px 0;
+
+}
+
+.footer_input_buttom input {
+    width: 228px;
+    height: 42px;
+    padding: 0;
+    border-radius: 2px;
+    background-color: #000000;
+    border: 1px solid orange;
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #BDBDBD;
+}
+
+
+
+.footer_button:disabled {
+    padding: 0;
+    width: 129px;
+    height: 42px;
+    background: #F1F3F2;
+    border: 1px solid #4B9200;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #4B9200;
+}
+
+.footer_button:disabled:active {
+    background: #767474;
+    border: 1px solid #000000;
+    color: #ffffff;
+}
+
+
+
+.footer_text {
+    position: absolute;
+    right: 228px;
+    top: 331px;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.footer_text p {
+    padding: 0;
+    margin: 10px 0 0 0;
+}
