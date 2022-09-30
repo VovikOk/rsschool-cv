@@ -26,11 +26,13 @@ button{
 .header {
     /*position: absolute;   */
     width: 100%;
+    z-index: 3;
    /* height: 780px;  */ 
 }
 
 .top_section_header {
     position: absolute;
+    z-index: 2;
     width: 100%;
     height: 80px;
     left: 0px;
@@ -104,7 +106,6 @@ button{
     color: orange; 
 }
 
-
 .top_section_header_designed {
     position: absolute;
     width: 105px;
@@ -122,9 +123,9 @@ button{
     margin: 0;
     padding: 0;
 }
-
 .top_section_panda{  
-    width: 100%;    
+    width: 100%; 
+   /* z-index: -1;  /* 
     /*top: 80px;   */
 }
 
@@ -173,6 +174,97 @@ button{
     background: linear-gradient(113.96deg, #352d2a 1.49%, #57432b 101.44%); 
 }
 
+.burger-menu{
+    display: none;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    z-index: 3;
+}
+
+  /* скрываем чекбокс */
+#burger_toggle {
+    opacity: 0;
+}
+  /* стилизуем кнопку */
+.burger_btn {
+    display: flex; /* используем flex для центрирования содержимого */
+    align-items: center;  /* центрируем содержимое кнопки */
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 10;
+}
+  /* добавляем "гамбургер" */
+.burger_btn > span,
+.burger_btn > span::before,
+.burger_btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+}
+.burger_btn > span::before {
+    content: '';
+    top: -8px;
+}
+.burger_btn > span::after {
+    content: '';
+    top: 8px;
+}
+  /* контейнер меню */
+.burger_box {
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    top: 50px;
+    right: 0;
+    width: 160px;
+    height: 100%;
+    margin: 0;
+    padding: 10px 0;
+    list-style: none;
+    /*text-align: center;*/
+    background-color: #000000;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    z-index: 12;
+}
+  /* элементы меню */
+.burger_item {
+    display: block;
+    padding: 12px 24px;
+    color: rgb(255, 254, 254);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #000000;
+}
+.burger_item:hover {
+    background-color: #CFD8DC;
+}
+.burger_item:active {      
+    background-color: #444343;
+}
+
+#burger_toggle:checked ~ .burger_btn > span {
+    transform: rotate(45deg);
+}
+#burger_toggle:checked ~ .burger_btn > span::before {
+    top: 0;
+    transform: rotate(0);
+}
+#burger_toggle:checked ~ .burger_btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+#burger_toggle:checked ~ .burger_box {
+    visibility: visible;    
+}
 
 .beckstage{   
     display: flex;
@@ -212,8 +304,6 @@ p.beckstage_text_q{
 .beckstage_text p{    
     margin: 0;    
 }
-
-
 .pets{   
     width: 100%;
     display: flex;
@@ -240,16 +330,14 @@ p.beckstage_text_q{
     overflow: hidden;       
 }
 
-.slider_imeges_transform{
-    
-    
+.slider_imeges_transform{     
     /*overflow-x: hidden;  */
     display: flex;
-    flex-direction: row;    
-    
+    flex-direction: row;      
    /* flex-wrap: wrap;*/
     justify-content: space-between; 
 }
+
 .slider_imeges_transform2{
     margin-top: 10px;
     display: flex;
@@ -407,16 +495,13 @@ p.beckstage_text_q{
     padding-top: 60px; 
 }
 
-.friend_img{
-    
-    margin: 40px 0 0 0;
-    
+.friend_img{    
+    margin: 40px 0 0 0;    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    /*width: 15%;*/
-    
+    /*width: 15%;*/   
 }
 
 .friend_img_vector{   
@@ -434,8 +519,7 @@ p.beckstage_text_q{
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     border-radius: 25px;
     color: hsl(0, 0%, 100%);
-    border: none;
-    
+    border: none;    
 }
 
 .friend_button:active {
@@ -475,9 +559,8 @@ p.beckstage_text_q{
 .Testimonials_articles{
     width: 72%;
     height: 391px;
-    overflow: hidden; 
-    
-   margin: 47px 14% 0 14%;
+    overflow: hidden;     
+    margin: 47px 14% 0 14%;
     
 }
 
@@ -598,6 +681,9 @@ p.beckstage_text_q{
     position: relative;    
  
 }
+.footer_logotype1{
+    display: none;
+}
 
 .footer_logotype {
     position: absolute;
@@ -608,8 +694,6 @@ p.beckstage_text_q{
     border: 1px solid #FFFFFF;
     border-radius: 2px;       
 }
-
-
 
 .footer_logotype_button {
     margin: 161px 0 0 14%;    
@@ -648,15 +732,13 @@ p.beckstage_text_q{
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
-    color: #FFFFFF;
-    
+    color: #FFFFFF;    
 }
 
 
 .footer_message  img{
     padding: 0 10px 0 0;
 }
-
 
 .footer_novigator{
     position: absolute;    
@@ -678,8 +760,7 @@ p.beckstage_text_q{
 }
 
 .footer_input p{
-    margin: 0 0 14px 0;
-    
+    margin: 0 0 14px 0;    
 }
 
 .footer_input_buttom input{
@@ -774,349 +855,3 @@ p.beckstage_text_q{
     top: 4235px;    
 }
 
-
-
-@media (max-width: 1440px) {                                /*медиозапросы*/
-    body{
-        width: 1440px;  
-        font-size:small;            
-    }
-    .top_section_text {       
-        left: 50%;
-        top: 166px;           
-    }
-    .top_section_button{             
-        top: 560px; 
-        left: 58%;       
-    }  
-    .beckstage{   
-        margin: 70px 15% 0 14%;        
-    }      
-    .transform{        
-         width: 340px;             
-    }
-    .trans_icon{    
-        left: 295px;   
-    }    
-    .pets{         
-        margin-top: 100px;
-    }  
-    .testimonials_progress{           
-        margin: 20px 30% 0 30%;
-        width: 40%;  
-    }  
-    .flower_foto{        
-        top: 720px;
-    }  
-    .palm_foto{        
-        top: 1973px; 
-    }    
-    .strelitzia{        
-        top: 2135px;
-    }    
-    .leav_foto{       
-        top: 4030px;    
-    } 
-}
-
-@media (max-width: 1280px) {                                /*медиозапросы*/
-    body{
-        width: 1280px;        
-    }   
-    .top_section_button{             
-        top: 530px; 
-        left: 60%;       
-    }
-    p.beckstage_text_q{ 
-        padding: 33px 0 33px 26px;  
-    }
-    .beckstage{   
-        margin: 30px 15% 0 11%;        
-    }
-
-    .slider_left{        
-        margin: 0  10px 0 6%;
-    }    
-    .slider_right{        
-        margin: 0 6% 0 10px;
-    }    
-    .slider_imeges{  
-        width: 85%;    
-    }
-    .transform{        
-        width: 320px;             
-    } 
-    .trans_icon{    
-       left: 275px;   
-    } 
-    .friend_box{       
-        left: 11%;
-        right: 11%;      
-    }
-    .footer_logotype {        
-        left:  8%;      
-    }
-    .footer_logotype_button {
-        margin: 161px 0 0 8%;    
-    }
-    .footer_message{
-        margin: 44px 0 0 8%;     
-    }
-    .footer_novigator{         
-        left: 33%;       
-    }
-    .footer_input{             
-        right: 8%;       
-    }
-    .footer_text{        
-        right: 8%;    
-    }
-    .flower_foto{        
-        top: 640px;
-    }  
-    .palm_foto{        
-        top: 1900px; 
-    }    
-    .strelitzia{        
-        top: 2043px;
-    }    
-    .leav_foto{       
-        top: 3950px;    
-    } 
-}
-
-@media (max-width: 1220px) {                                /*медиозапросы*/
-    body{
-        width: 1220px;        
-    }  
-    .top_section_text {                
-        left: 52%;
-        top: 135px;         
-    }    
-    .top_section_button{             
-        top: 500px; 
-        height: 50px;
-        left: 63%;               
-    }
-    .beckstage{   
-        margin: 70px 13% 0 8%;        
-    }  
-    p.beckstage_text_q{ 
-        padding: 28px 0 28px 26px;  
-    }     
-    .slider_left{        
-        margin: 0  10px 0 3%;
-    }    
-    .slider_right{        
-        margin: 0 3% 0 10px;
-    }    
-    .slider_imeges{  
-        width: 92%;    
-    }
-    .transform{        
-        width: 320px;             
-   } 
-    .trans_icon{    
-       left: 275px;   
-    } 
-    .friend_box{       
-        left: 8%;
-        right: 8%;      
-    }
-    .flower_foto{        
-        top: 610px;
-    }  
-    .palm_foto{        
-        top: 1928px; 
-    }    
-    .strelitzia{        
-        top: 2063px;
-    }    
-    .leav_foto{       
-        top: 3960px;    
-    } 
-}
-
-@media (max-width: 999px) {                                /*медиозапросы*/
-    body{
-        width: 999px; 
-        font-size:x-small;        
-    }
-    .top_section_header_logotype {     
-        left: 12%;    
-    }
-    .top_section_header_designed {
-        right: 12%;
-    }  
-    .top_section_text { 
-        left: 45%;
-        top: 140px;         
-    }
-    .top_section_button{             
-        top: 410px;  
-        height: 40px;         
-        left: 61%;              
-    }
-    .beckstage{   
-        margin: 0px 13% 0 8%;        
-    }  
-    .beckstage_text p{       
-        font-size: 1.4em;        
-    }    
-    .pets{        
-        display: block ;
-        position: relative;      
-        margin-top: 30px;
-    }    
-    .slider_left{
-        position: absolute;
-        top: 535px;
-        left: 35%;
-        width: 62px;
-        height: 62px;
-        margin: 0;
-    }    
-    .slider_right{
-        position: absolute;
-        top: 535px;
-        right: 35%;
-        width: 62px;
-        height: 62px;
-        margin: 0;
-    }    
-    .slider_imeges{   
-        width: 84%;     
-        height: 550px;     
-        overflow: hidden;       
-        margin: 0 8% 0 8%;
-    }      
-    .transform{        
-        width: 255px; 
-        height: 255px;   
-        margin: 0;         
-    } 
-    .trans_icon{    
-        left: 215px;   
-        bottom: 4px;
-     } 
-    .slider_img{
-        width: 255px;
-    }
-    .trans_text{            
-        top: 130px;
-        width: 255px;
-        height: 50px;        
-        background: #a2a3a0;
-    } 
-    .transform_title {         
-        padding: 8px 5px 0 5px;       
-    }    
-    .transform_text {        
-        padding: 0 5px 0 5px;           
-    }    
-    .pets_button{        
-        width: 20%;
-        height: 40px;
-        margin: 80px 40% 0 40%;      
-    }
-    .friend {       
-        margin-top: 50px;     
-    }    
-    .friend_box{       
-        left: 8%;
-        right: 8%;      
-    }
-    .friend_button {        
-        width: 20%;
-        height: 40px; 
-        margin: 60px 40% 59px 40%;   
-    }
-
-    .friend_second_title{         
-        padding: 30px 0 0 9%;    
-    }
-    
-    .friend_second_main_info{    
-        padding: 40px 9% 0 9%;
-    }
-    
-    .friend_second_info{
-       
-        padding: 10px 9% 0 9%;
-    }
-    .Testimonials {       
-        margin: 40px 0 0 0;       
-    }
-    .testimonials_box{
-        width: 960px;
-    }
-    .Testimonials_button {
-        margin: 36px 70% 0 14%;
-        width: 20%;
-        height: 40px;  
-    }  
-    .footer{
-        margin: 80px 0 0 0;      
-    }     
-    .footer_logotype_button {   
-        height: 45px;
-        width: 20%;      
-    }    
-    .footer_novigator{         
-        left: 30%;       
-    }
-    .footer_input{             
-        right: 5%;       
-    }
-    .footer_text{        
-        right: 5%;    
-    }
-    .flower_foto{        
-        top: 490px;
-    } 
-    .palm_foto{        
-        top: 1353px; 
-    }    
-    .strelitzia{        
-        top: 1463px;
-    }    
-    .leav_foto{       
-        top: 3163px;    
-    } 
-}
-
-@media (max-width: 980px) {                                /*медиозапросы*/
-    body{
-        width: 980px;        
-    }
-}
-
-@media (max-width: 768px) {                                /*медиозапросы*/
-    body{
-        width: 768px; 
-               
-    }
-
-
-
-
-
-}
-
-@media (max-width: 640px) {                                /*медиозапросы*/
-    body{
-        width: 640px;        
-    }
-}
-
-@media (max-width: 600px) {                                /*медиозапросы*/
-    body{
-        width: 600px;        
-    }
-}
-
-@media (max-width: 320px) {                                /*медиозапросы*/
-    body{
-        width: 320px;        
-    }
-}

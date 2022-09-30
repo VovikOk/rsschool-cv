@@ -11,3 +11,5 @@ document.getElementById("footer_email").addEventListener('input', (event) => {
     if (val.includes('@') || val === '') { document.getElementById("footer_but").disabled = true;        
     } else {document.getElementById("footer_but").disabled = false;}
 })
+
+
