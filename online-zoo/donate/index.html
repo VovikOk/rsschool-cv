@@ -5,7 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>desktop_petstory</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/media.css" />
 </head>
 
 <body>
@@ -31,7 +32,7 @@
                 </div> 
             </header>             
         </section>
-        <img src="image/panda_bg.jpg" alt="">
+        <img class="top_section_panda" src="image/panda_bg.jpg" alt="">
 
         <section class="center_section">
             <h3>THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!</h3>
@@ -79,48 +80,77 @@
         </section>
 
         <footer>
-            <div class="footer" >    
+            <div class="footer">
+                <div class="footer_logotype1">
+                    <a class="logotype_home1" href="#">
+                        <h1 class="petStory_online"> PetStory online </h1>
+                    </a>
+                    <img class="bamboo1" src="icons/bamboo.png " alt="">
+                </div>
                 <div class="footer_logotype">
-                    <a class="logotype_home" href="../../index.html"> <h1 class="petStory_online"> PetStory <br> online </h1> </a>
+                    <a class="logotype_home" href="#">
+                        <h1 class="petStory_online"> PetStory <br> online </h1>
+                    </a>
                     <img class="bamboo" src="icons/bamboo.png " alt="">
-                </div> 
-                <input type="button" href="#" class="footer_logotype_button" value="DONATE FOR VOLUNTEERS">
+                </div>
+                <button id="button_footer" class="footer_logotype_button">DONATE FOR VOLUNTEERS</button>
                 <ul class="footer_message">
-                        <li>
-                            <a href="https://www.facebook.com/"><img src="icons/Ellipse 173.png" alt="">Facebook</a> 
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/"><img src="icons/Ellipse 172.png" alt="">Twitter</a> 
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/"><img src="icons/Ellipse 171.png" alt="">Instagram</a> 
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/"><img src="icons//Ellipse 174.png" alt="">YouTube</a> 
-                        </li>
-                </ul>     
+                    <li>
+                        <a href="https://www.facebook.com/"><img src="icons/Ellipse 173.png" alt=""> <label
+                                for="">Facebook</label> </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/"><img src="icons/Ellipse 172.png" alt=""><label
+                                for="">Twitter</label></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/"><img src="icons/Ellipse 171.png" alt=""><label
+                                for="">Instagram</label></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/"><img src="icons/Ellipse 174.png" alt=""><label
+                                for="">YouTube</label></a>
+                    </li>
+                </ul>
                 <nav class="footer_novigator">
-                    <ul class="novigator_list">                
-                        <li><a href="../../index.html">About</a></li>
+                    <ul class="novigator_list">
+                        <li><a href="#">About</a></li>
                         <li><a href="">Map</a></li>
-                        <li><a href="">Zoos</a></li>                
-                        <li><a href="">Contact us</a></li>                
+                        <li><a href="">Zoos</a></li>
+                        <li><a href="">Contact us</a></li>
                     </ul>
                 </nav>
-                <div class="footer_input_box">
-                <p>Subscribe to our news</p> 
-                <div class="footer_input_buttom">
-                    <input type="email" id="footer_email" class="footer_inpyt" placeholder="Enter your email">
-                    <button class="footer_button" id="footer_but">Submit</button>
-                </div>  
-
-                </div> 
+                <div class="footer_input">
+                    <p>Subscribe to our news</p>
+                    <div class="footer_input_buttom">
+                        <input type="email" id="footer_email" class="footer_inpyt" placeholder="Enter your email">
+                        <button class="footer_button" id="footer_but">Submit</button>
+                    </div>
+        
+                </div>
                 <div class="footer_text">
                     <p>Designed by Alisa Samborskaya</p>
                     <p>©RSSchool & ©Yem Digital 2021</p>
-                </div>   
-            </div>  
+                </div>
+            </div>
         </footer>
+
+        <div class="burger-menu">
+            <input id="burger_toggle" type="checkbox" />
+            <label class="burger_btn" for="burger_toggle">
+                <span></span>
+            </label>
+            <ul class="burger_box">
+                <li><a class="burger_item" href="../../index.html">About</a></li>
+                <li><a class="burger_item" href="">Map</a></li>
+                <li><a class="burger_item" href="">Zoos</a></li>
+                <li><a class="burger_item" href="#">Donate</a></li>
+                <li><a class="burger_item" href="">Contact us</a></li>
+                <li><a class="burger_item" href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">Designed by @</a></li>
+            </ul>
+        
+        </div>
+
 
     </section>
 

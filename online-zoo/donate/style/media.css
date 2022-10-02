@@ -1,0 +1,315 @@
+
+
+@media (max-width: 1440px) {                                /*медиозапросы*/
+    body{
+        width: 1440px;  
+        font-size:small;            
+    }
+    .top_section_text {       
+        left: 54%;
+        top: 150px;  
+        font-size: 7.6em;       
+    }
+    
+}
+
+@media (max-width: 1280px) {                                /*медиозапросы*/
+    body{
+        width: 1280px;        
+    }  
+    .top_section_text {       
+        left: 52%;
+        top: 145px; 
+        font-size: 6.6em; 
+                
+    }     
+    .footer_logotype {        
+        left:  8%;      
+    }
+    .footer_logotype_button {
+        margin: 161px 0 0 8%;    
+    }
+    .footer_message{
+        margin: 44px 0 0 8%;     
+    }
+    .footer_novigator{         
+        left: 33%;       
+    }
+    .footer_input{             
+        right: 8%;       
+    }
+    .footer_text{        
+        right: 8%;    
+    }   
+}
+
+@media (max-width: 1220px) {                                /*медиозапросы*/
+    body{
+        width: 1220px;        
+    }  
+    .top_section_text {                
+        left: 50%;
+        top: 160px; 
+        font-size: 6em;         
+    }       
+}
+
+@media (max-width: 999px) {                                /*медиозапросы*/
+    body{
+        width: 999px; 
+        font-size:x-small;        
+    }
+    .top_section_header_logotype {     
+        left: 12%;    
+    }
+    .top_section_header_designed {
+        right: 12%;
+    }  
+    .top_section_text { 
+        left: 45%;
+        top: 160px;         
+    }
+   
+    .footer{
+        margin: 80px 0 0 0;      
+    }     
+    .footer_logotype_button {   
+        height: 45px;
+        width: 20%;      
+    } 
+    .footer_message{
+         margin: 50px 0 0 8%;      
+    }   
+    .footer_novigator{         
+        left: 30%;       
+    }
+    .footer_input{             
+        right: 5%;       
+    }
+    .footer_text{        
+        right: 5%;    
+    }   
+}
+
+@media (max-width: 980px) {                                /*медиозапросы*/
+    body{
+        width: 980px;        
+    }
+}
+
+@media (max-width: 768px) {                                /*медиозапросы*/
+    body{
+        width: 768px; 
+        font-size:xx-small;       
+    }
+    .top_section_header_logotype {       
+        left: 8%;        
+    }
+    .top_section_header_novigator{    
+        left: 28%;  
+    }
+    .novigator_list li{        
+        margin: 0 20px 0 0;
+    }
+    .top_section_header_designed {    
+        right: 5%;   
+    }  
+    .top_section_text {       
+        left: 38%;
+        top: 130px;           
+        font-size: 5.5em;      
+    }
+    
+    .footer{
+        margin: 80px 0 0 0;       
+    } 
+    .footer_logotype_button {    
+        font-size: 13px;
+        height: 40px;        
+    }
+    .footer_message{
+        margin: 60px 0 0 8%;      
+   }   
+    .footer_text p{
+        font-size: 13px;
+        margin: 10px 0 0 0;
+    }  
+}
+
+@media (max-width: 640px) {                                /*медиозапросы*/
+    body{
+        width: 640px;        
+    }
+    .top_section_header {       
+        height: 60px;        
+    }
+    .top_section_header_logotype {       
+        left: 8%;
+        top: 4px;    }
+    .logotype_home {         
+        border: none;                
+    }    
+    .petStory_online{            
+        border: none; 
+    }
+    .top_section_header_novigator{         
+        display: none;
+    }  
+    .top_section_header_designed {
+        display: none;
+    } 
+    .top_section_text {        
+        width: 220px;      
+        left: 53%;
+        top: 135px;  
+        z-index: 0;          
+        font-size: 4.3em;       
+    }   
+
+    .footer{
+        margin: 40px 0 0 0;  
+        height: 420px;     
+    } 
+    .footer_logotype { 
+        top: 31px;              
+    }
+    .footer_logotype_button {     
+        width: 40%;      
+    }
+    .footer_input{
+        position: absolute;    
+        display: none;
+    }
+    .footer_message{
+       position: absolute; 
+       margin: 0; 
+       top: 31px;  
+       right: 8%;  
+       width: 15px ;
+    }   
+    .footer_message li {
+        margin-bottom: 30px;   
+    }
+   .footer_message label {
+        display: none;
+    }
+    .footer_novigator{         
+        left: 8%;        
+    }    
+   
+    .burger-menu{
+        display: block;
+    }
+}
+@media (max-width: 600px) {                                /*медиозапросы*/
+    body{
+        width: 600px;        
+    } 
+    .top_section_text {    
+        left: 52%;
+        top: 120px; 
+    }
+    
+}
+
+
+@media (max-width: 320px) {                                /*медиозапросы*/
+    body{
+        width: 320px;        
+    }
+
+    .top_section_header {        
+        height: 30px;      
+    }
+    .top_section_header_logotype {       
+        width: 42px;
+        height: 28px;        
+        top: 4px;
+    }
+    .bamboo{        
+        left: 3px;
+        top: 8px;
+        width: 8px;
+    }    
+    .logotype_home {      
+        width: 42px; 
+    }    
+    .petStory_online{         
+        font-weight: 400;
+        font-size: 10px;
+    }
+    .top_section_ellipse{    
+        top: 45px;   
+    }
+    .top_section_text {    
+        left: 35%;
+        top: 65px;
+        font-size: 2.2em; 
+    }
+        .top_section_panda {
+            
+            margin-top: 30px;
+            /* z-index: -1;  /* 
+        /*top: 80px;   */
+        }
+   
+    .footer{       
+        height: 400px;      
+    }
+    .footer_logotype1{
+        display: inline;
+    }
+    .logotype_home1 h1{
+        font-size: 1.2em;
+        padding-top: 20px;
+    }
+    .bamboo1{
+        position: absolute;
+        left: 170px;
+        top: 20px;
+    }
+    
+    .footer_logotype {
+       display: none;     
+    }
+    .footer_logotype_button {
+        margin: 120px 10% 0 10%;    
+        width: 80%;
+        height: 44px;    
+       
+    }
+    .footer_message{
+        position: absolute; 
+        display: flex;
+        flex-direction: row;
+        margin: 0; 
+        top: 85px;  
+        left: 20%;  
+        width: 100% ;       
+     }   
+     .footer_message a{        
+        width: 60%;
+        padding-right: 20px;  
+    }
+    .footer_text{       
+        right: 14%;
+        top: 280px;         
+    }
+    
+    .burger_btn {
+        top: 1px;      
+    }
+    .burger_box {
+       
+        top: 30px;
+        right: 0;
+        width: 160px;
+        height: 100%;
+        margin: 0;
+        padding: 5px 0;       
+    }  
+    .burger_item {
+        padding: 5px 24px;         
+    }
+
+}
