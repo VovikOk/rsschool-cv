@@ -17,8 +17,8 @@ button {
 
 .top_section {
     width: 100%;
-    position: absolute;
-    top: 0px;
+   /* position: absolute;*/
+   /* top: 0px;*/
     font-family: 'Roboto';
     font-style: normal;
 }
@@ -232,7 +232,7 @@ button {
     transform: rotate(90deg);
 }
 
-#burger_toggle:checked~.burger_box {
+#burger_toggle:checked ~.burger_box {
     visibility: visible;
 }
 
@@ -240,23 +240,24 @@ button {
 
 
 
-
 .center_section {
     width: 100%;
+    height: 1482px;
     background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
 }
 
 h3 {
-    margin: 0px 180px 10px 180px;
+    width: 76%;
+    margin: 0px 14% 10px 14%;
     padding-top: 30px;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 2.1em;
     line-height: 130%;
     color: #FFFFFF;
 }
 
 .even_text {
-    margin: 0 180px 0 180px;
+    margin: 0 14% 0 14%;
     font-weight: 500;
     font-size: 16px;
     line-height: 140%;
@@ -269,8 +270,8 @@ h3 {
 }
 
 .main_pick {
-    margin: 60px 220px 180px 220px;
-    height: 964px;
+    margin: 60px 14% 180px 14%;
+   /* height: 964px;*/
     background: rgba(255, 255, 255, 0.52);
     backdrop-filter: blur(2px);
     border-radius: 20px;
@@ -278,14 +279,14 @@ h3 {
 
 .pick {
     position: relative;
-    margin: 40px 92px 62px 92px;
-    height: 862px;
+    margin: 40px 6% 62px 6%;
+    height: 964px;
 }
 
 h2 {
     padding-top: 40px;
     font-weight: 400;
-    font-size: 48px;
+    font-size: 3em;
     line-height: 120%;
     text-align: center;
     color: #FE9013;
@@ -300,7 +301,7 @@ h2 {
 }
 
 .icon_panda {
-    margin: 60px 229px;
+    margin: 60px 23%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -350,7 +351,7 @@ h2 {
 }
 
 .pick_progress img {
-    padding: 0 58px 0 58px;
+    padding: 0 5.7% 0 5.7%;
 }
 
 .pick_progress img:hover {
@@ -364,17 +365,18 @@ h2 {
     align-items: center;
     justify-content: space-between;
     font-weight: 500;
-    font-size: 26px;
+    font-size: 2em;
     line-height: 140%;
     text-transform: uppercase;
     color: #333B41;
 }
 
 .another_amont {
+    padding: 0;
     box-sizing: border-box;
-    width: 268px;
+    width: 26%;
     height: 54px;
-    margin: 50px 354px 0 354px;
+    margin: 50px 37% 0 37%;
     border: 1px solid #929699;
     border-radius: 2px;
     font-weight: 400;
@@ -418,8 +420,8 @@ h2 {
 }
 
 .pick_button {
-    margin: 31px 336px 0 342px;
-    width: 298px;
+    margin: 31px 37% 0 37%;
+    width: 26%;
     height: 54px;
     left: calc(50% - 298px/2 + 332px);
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
@@ -432,17 +434,20 @@ h2 {
     background: linear-gradient(113.96deg, #352d2a 1.49%, #57432b 101.44%);
 }
 
-.share_text {
-    margin: 30px 335px 0 340px;
-    padding-left: 15px;
+.share_text {  
+    text-align: center; 
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
     color: #333B41;
 
 }
+
+
+
+
 .footer {
-    margin: 180px 0 0 0;
+    margin: 0 0 0 0;
     width: 100%;
     height: 443px;
     background: #000000;

@@ -854,4 +854,21 @@ p.beckstage_text_q{
     right: 0px;
     top: 4235px;    
 }
+.arrow1{
+    display: none;
+    position:absolute ;
+}
+.arrow2{
+    display: none;
+    position:absolute ;
+}
+.arrow3{
+    display: none;
+    position:absolute ;
+}
+.arrow4{
+    display: none;
+    position:absolute ;
+}
+
 

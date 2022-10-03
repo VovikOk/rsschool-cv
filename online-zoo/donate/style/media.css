@@ -10,6 +10,13 @@
         top: 150px;  
         font-size: 7.6em;       
     }
+    .icon_panda {
+        margin: 60px 15% 60px 23%;        
+    }
+   
+    .xicon {
+        margin: 0 15px 0 11px;
+    }
     
 }
 
@@ -69,10 +76,34 @@
         left: 45%;
         top: 160px;         
     }
-   
-    .footer{
-        margin: 80px 0 0 0;      
-    }     
+    .center_section {        
+        height: 1282px;      
+    }
+    h3 {
+        width: 90%;
+        margin: 0px 5% 10px 5%;
+        font-size: 2.5em;       
+    }
+    .even_text {
+        margin: 0 5% 0 5%;       
+        font-size: 1.5em;       
+    }
+    .main_pick {
+        margin: 40px 5% 180px 5%;
+       /* height: 964px;*/
+        background: rgba(255, 255, 255, 0.52);
+        backdrop-filter: blur(2px);
+        border-radius: 20px;
+    }
+    .another_amont {     
+        width: 30%;        
+        margin: 50px 35% 0 35%;      
+    }
+    .pick_button {
+        margin: 31px 35% 0 35%;
+        width: 30%;     
+    } 
+ 
     .footer_logotype_button {   
         height: 45px;
         width: 20%;      
@@ -119,9 +150,23 @@
         top: 130px;           
         font-size: 5.5em;      
     }
-    
-    .footer{
-        margin: 80px 0 0 0;       
+    .center_section {        
+        height: 1245px;      
+    }
+    .pick {     
+        height: 904px;
+    }
+
+    .icon_panda {
+        margin: 60px 10% 60px 10%;        
+    }
+    .another_amont {     
+        width: 40%;        
+        margin: 50px 30% 0 30%;      
+    }
+    .pick_button {
+        margin: 31px 30% 0 30%;
+        width: 40%;     
     } 
     .footer_logotype_button {    
         font-size: 13px;
@@ -164,10 +209,31 @@
         top: 135px;  
         z-index: 0;          
         font-size: 4.3em;       
-    }   
-
-    .footer{
-        margin: 40px 0 0 0;  
+    } 
+    .top_section_panda {
+        width: 100%;
+        margin-top: 60px;       
+    }  
+    .pick {
+        width: 94%;
+        margin: 40px 3% 62px 3%;
+        
+    }
+    .icon_panda {
+        margin: 60px 5% 60px 5%;        
+    }
+    .another_amont {     
+        width: 50%;        
+        margin: 50px 25% 0 25%;      
+    }
+    .pick_button {
+        margin: 31px 25% 0 25%;
+        width: 50%;     
+    } 
+    .pick_progress img {
+        padding: 0 5.5% 0 5.5%;
+    }
+    .footer{         
         height: 420px;     
     } 
     .footer_logotype { 
@@ -195,8 +261,7 @@
     }
     .footer_novigator{         
         left: 8%;        
-    }    
-   
+    }
     .burger-menu{
         display: block;
     }
@@ -209,9 +274,11 @@
         left: 52%;
         top: 120px; 
     }
+    .icon_panda {
+        margin: 60px 3% 60px 3%;        
+    }
     
 }
-
 
 @media (max-width: 320px) {                                /*медиозапросы*/
     body{
@@ -251,10 +318,65 @@
             margin-top: 30px;
             /* z-index: -1;  /* 
         /*top: 80px;   */
-        }
-   
+    }
+    .center_section {       
+        height: 1170px;        
+    }
+    .pick {
+       
+        height: 700px;
+        margin-bottom: 0;
+    }
+    .main_pick {
+        margin-bottom: 0;
+       
+    }
+
+
+
+
+
+    .animal_text {      
+        font-size: 16px;       
+    }
+
+    .icon_panda {
+        width: 100%;
+        margin: 60px 0;       
+    }
+    .panda_img{
+        width: 140px;
+    }
+    .number_text {
+        margin: 0;        
+        font-size: 10px;      
+    }
+    .pick_progress {       
+        height: 30px;       
+    }
+    .pick_progress img {
+        padding: 0 4.5% 0 4.5%;
+    }
+    .pick_price {       
+        font-size: 1.3em;      
+    }
+    .another_amont {      
+        width: 60%;
+        height: 40px;
+        margin: 50px 20% 0 20%;   
+    }
+    .pick_button {
+        margin: 31px 5% 0 5%;
+        width: 90%;
+        height: 40px;       
+    }    
+    .share_text {      
+        font-size: 13px;    
+
+    }   
     .footer{       
-        height: 400px;      
+        height: 400px;
+        margin-top: 0px;      
     }
     .footer_logotype1{
         display: inline;
