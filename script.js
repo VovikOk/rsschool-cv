@@ -1,27 +1,3 @@
-//визначаємо розмір сторінки
-/*const pageWidth = document.documentElement.scrollWidth;
-const pageHeight = document.documentElement.scrollHeight;
-//підключаємо Canvas
-let c = document.getElementById("myCanvas");
-let ctx = c.getContext("2d");
-let  n = 16;
-let width = pageWidth *0.4;//задаємо значення сторони вікна Canvas
-let numberStr;//визначаємо розмірність
-let widthNumber;//визначаємо значення сторони клітинки
-let arrN = [];//масив чисел 
-let arr = [];// масив данних
-let arrEtalon = [];
-let k = 0;//зберігаємо позицію цифри в масиві
-let zeroNum;//позиція пустої клітинки
-let x = 0;
-let y = 0;
-let f = 0;//цифра
-let clickXY;//координати кліку
-let clickNum;//цифра кліку
-let m; //попередня кількість клітин
-let numClick = 0;//кількість кліків за гру*/
-
-
 let c = document.getElementById("myCanvas");
 let ctx = c.getContext("2d");
 let pageWidth = document.documentElement.scrollWidth;  
